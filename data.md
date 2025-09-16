@@ -1,6 +1,6 @@
 
 # Integers and Floats
-You have already been exposed to integers (numbers) through the previous exercises. Integers represent whole numbers in Python. Floats represent numbers with decimal values. Pop the following into python and check the output and how they are different. Note: It's important to understand the basics of these datatypes now as they have properties exclusive to their data type. 
+You have already been exposed to integers (numbers) through the previous exercises. Integers represent whole numbers in Python. Floats represent numbers with decimal values. Pop the following into python and check the output andj how they are different. Note: It's important to understand the basics of these datatypes now as they have properties exclusive to their data type. 
 ```python
 x = 3
 y = float(3)
