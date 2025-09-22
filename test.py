@@ -1,21 +1,10 @@
-service = 0
-def tipcalc():
-    tip = input ("How was the service? Bad, Okay, Good, Great")
-    tip_perc = 0    
-    if tip == "Great":
-      tip_perc = 0.25
-    elif tip == "Good":
-      tip_perc = 0.20
-    elif tip == "Okay":
-      tip_perc = 0.15
-    elif tip == "bad":
-      tip_perc = 0
-    else:
-        print ("Invalid")
-    bill = float(input("what is your billamount"))
-    print(tip_perc)
-    subtotal = tip_perc * bill
-    print(subtotal)
-    Total = subtotal + bill 
-    print (f"This is your total: {Total}")
-tipcalc()
+def GCF():
+    GCF = (x,y)
+    x= input("What is X?")
+    y= input("What is y?")
+    x=int(x)
+    y=int(y)
+    i=0-1
+    for h in range(x):
+        if (x%(h+1)) == 0 and (y%(h+1)) == 0:
+            list2.append(h+1)

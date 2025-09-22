@@ -18,8 +18,42 @@ def not_movies(homework):
     else:
         print("hommework time,I hate russian")
 not_movies(homework)  """
-
+""" 
 def factor(x,y):
     if x % y == 0:
         print(f"{y}is a factor of {x}")
-factor(25,5)
+factor(25,5) """
+
+""" def oddoreven(x,y):
+    if x % y == 0:
+        print(f"{x} is even")
+    else:
+        print(f"{x} is not even")
+oddoreven(79489384,2) """
+
+
+""" service = 0
+def tipcalc():
+    tip = input ("How was the service? Bad, Okay, Good, Great")
+    tip_perc = 0    
+    if tip == "Great":
+      tip_perc = 0.25
+    elif tip == "Good":
+      tip_perc = 0.20
+    elif tip == "Okay":
+      tip_perc = 0.15
+    elif tip == "Bad":
+      tip_perc = 0
+    else:
+        print ("Invalid")
+    bill = float(input("what is your billamount"))
+    subtotal = tip_perc * bill
+    Total = subtotal + bill 
+    print (f"This is your total: {Total}")
+tipcalc()
+ """
+day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect")
