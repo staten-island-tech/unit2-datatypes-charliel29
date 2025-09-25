@@ -1,10 +1,13 @@
 def GCF():
-    GCF = (x,y)
-    x= input("What is X?")
-    y= input("What is y?")
+    x = input("X?")
+    y = input("Y?")
     x=int(x)
     y=int(y)
-    i=0-1
-    for h in range(x):
-        if (x%(h+1)) == 0 and (y%(h+1)) == 0:
-            list2.append(h+1)
+    list = []
+    h=-1
+    for i in range(x):
+        if x%(i+1) == 0 and y%(i+1) == 0:
+            list.append(i+1)
+            h = h + 1
+    print (list[h])
+GCF()

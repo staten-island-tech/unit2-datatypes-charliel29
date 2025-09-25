@@ -52,8 +52,13 @@ def tipcalc():
     print (f"This is your total: {Total}")
 tipcalc()
  """
-day_of_week = input("what day is it? ")
-if day_of_week == "Friday":
-    print("correct")
-else:
-    print("incorrect")
+def factors():
+  list=[]
+  num = input("What is your number?")
+  num = int(num)
+  for i in range(num):
+    if num%(i+1) == 0:
+      list.append(i+1)
+  print (list)
+factors()
+ 
