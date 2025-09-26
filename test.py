@@ -1,13 +1,7 @@
-def GCF():
-    x = input("X?")
-    y = input("Y?")
-    x=int(x)
-    y=int(y)
-    list = []
-    h=-1
-    for i in range(x):
-        if x%(i+1) == 0 and y%(i+1) == 0:
-            list.append(i+1)
-            h = h + 1
-    print (list[h])
-GCF()
+""" x = 10 
+while x > 5:
+    print(x)
+    x=x-1 """
+import random
+random_number = random.randint(1, 10)  # Generates a random integer between 1 and 10 (inclusive)
+print(random_number)

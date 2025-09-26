@@ -24,6 +24,9 @@ def factor(x,y):
         print(f"{y}is a factor of {x}")
 factor(25,5) """
 
+
+
+unit 2 
 """ def oddoreven(x,y):
     if x % y == 0:
         print(f"{x} is even")
@@ -52,7 +55,7 @@ def tipcalc():
     print (f"This is your total: {Total}")
 tipcalc()
  """
-def factors():
+""" def factors():
   list=[]
   num = input("What is your number?")
   num = int(num)
@@ -60,5 +63,18 @@ def factors():
     if num%(i+1) == 0:
       list.append(i+1)
   print (list)
-factors()
- 
+factors() """
+"""  
+def GCF():
+    x = input("X?")
+    y = input("Y?")
+    x=int(x)
+    y=int(y)
+    list = []
+    h=-1
+    for i in range(x):
+        if x%(i+1) == 0 and y%(i+1) == 0:
+            list.append(i+1)
+            h = h + 1
+    print (f"This is your GCF:{list[h]}")
+GCF() """
